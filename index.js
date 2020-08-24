@@ -14,7 +14,6 @@ function merge(firstArr, secondArr) {
     }
     sortedArr.push(minValue)
   }
-
   return sortedArr.concat(firstArr).concat(secondArr) // merge sorted array with remaining values
 }
 
